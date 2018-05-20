@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<link rel="icon" type="image/png" href="c-logo.png">
+<meta name="Description" content="Author: mahesh, webdev challege 5">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form | by mahesh</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class=" showcase">
+        <div class="title">
+            <h1>Contacts
+                <br> App</h1>
+            <p>Add and Save your Contacts</p>
+        </div>
+        <div class="box">
+
+            <form>
+                <div>
+                    <input type="text" name="nam" id="fn" required>
+                    <label for="name">first Name</label>
+                </div>
+                <div>
+                    <input type="text" name="nam" id="ln" required>
+                    <label for="name">Last Name</label>
+                </div>
+                <div>
+                    <input type="text" name="" id="pn" required>
+                    <label for="">Phone number</label>
+                </div>
+                <div>
+                    <input type="email" name="e" id="email" required>
+                    <label for="e">Email</label>
+                </div>
+                <div>
+                    <input type="text" name="nam" id="add" required>
+                    <label for="name">Address</label>
+                </div>
+
+                <div>
+                    <input type="text" name="sub" required id="city">
+                    <label for="sub">city</label>
+                </div>
+                <div>
+                    <input type="text" name="m" required id="state">
+                    <label for="m">state</label>
+                </div>
+                <div>
+                    <input class="msg2" type="text" id="zip" name="m" required>
+                    <label for="m">zipcode</label>
+                </div>
+
+                <input type="submit" value="Add" id="submit">
+            </form>
+        </div>
+    </div>
+
+
+    <div class="full  none" id="full">
+        <h2 style="    color: white;
+    font-size: 33px;
+    padding-left: 30px;">Your Contacts:</h2>
+
+
+        <div id="data" class="mt">
+
+        </div>
+    </div>
+    <script src="contact.js"></script>
+</body>
+
+</html>
